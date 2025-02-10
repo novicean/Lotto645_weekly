@@ -1,0 +1,3 @@
+{
+    "python.pythonPath": "/venv/bin/python3" //"어떤 python을 사용할 건지. python 설치 위치 지정"
+}
