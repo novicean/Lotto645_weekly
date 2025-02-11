@@ -19,7 +19,7 @@ DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1337762943458218045/Qhjx
 
 # 웹 드라이버 설정 (ChromeDriver 경로 수정 필요)
 chrome_options = Options()
-#chrome_options.add_argument("--headless")  # 백그라운드 실행
+chrome_options.add_argument("--headless")  # 백그라운드 실행
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
 service = Service(ChromeDriverManager().install())  # ✅ ChromeDriver 자동 설치
